@@ -1,0 +1,21 @@
+<article class="item">
+        <div class="image-container">
+          {{#each photos}}
+             {{>itemPhoto}}
+          {{/each}}
+        </div>
+
+        <div class="item-content">
+          <p class="item-name">
+            {{name}}
+          </p>
+          <p class="item-location">
+            {{locationName}}
+          </p>
+          <div class="item-description-container">
+            <p class = "item-description">
+              {{description}}
+            </p>
+          </div>
+        </div>
+</article>

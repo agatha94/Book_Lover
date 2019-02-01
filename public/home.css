@@ -1,0 +1,14 @@
+body {
+  background-image: url(image/bloom-blossom-book-36428.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color:#464646;
+}
+
+@media only screen and (max-width: 767px) {
+  body {
+    background-image: url(image/bloom-blossom-book-36428.jpg);
+  }
+	}
